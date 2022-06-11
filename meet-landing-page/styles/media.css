@@ -1,0 +1,159 @@
+@media (min-width: 768px) {
+	.container {
+		max-width: 89.6%;
+	}
+
+	.header__logo {
+		margin-bottom: 54px;
+	}
+
+	.hero {
+		margin-bottom: 164px;
+	}
+
+	.hero__image-item {
+		min-height: 330px;
+		margin-bottom: 72px;
+	}
+
+	.hero__title {
+		font-size: 4.8rem;
+		line-height: 4.8rem;
+	}
+
+	.hero .container {
+		width: 50%;
+	}
+
+	.main .container {
+		margin-bottom: 192px;
+	}
+
+	.main__image-item {
+		width: calc(25% - 11px);
+	}
+
+	.main__title {
+		width: 60%;
+		margin: 0 auto 24px auto;
+		font-size: 4rem;
+		line-height: 4.4rem;
+	}
+
+	.main__text {
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.footer {
+		background-image: linear-gradient(
+				rgba(77, 150, 169, 0.8),
+				rgba(77, 150, 169, 0.8)
+			),
+			url(/meet-landing-page/assets/tablet/image-footer.jpg);
+	}
+
+	.footer__title {
+		width: 50%;
+		font-size: 4rem;
+	}
+
+	.footer__text {
+		width: 85%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.container {
+		max-width: 1100px;
+	}
+
+	.hero {
+		display: flex;
+		align-items: center;
+		position: relative;
+		margin-bottom: 194px;
+	}
+
+	.hero__image-item {
+		display: none;
+	}
+	.hero__image-item-left,
+	.hero__image-item-right {
+		display: block;
+		position: relative;
+	}
+
+	.hero__image-item-right {
+		width: 30%;
+		left: 32px;
+	}
+
+	.hero__image-item-left {
+		width: 30%;
+		right: 32px;
+	}
+
+	.hero .container {
+		width: 40%;
+		margin: 0;
+	}
+
+	.hero__title {
+		font-size: 6.4rem;
+		line-height: 6.4rem;
+		margin-bottom: 34px;
+	}
+
+	.hero__text {
+		font-size: 1.8rem;
+		line-height: 2.6rem;
+	}
+
+	.container__button {
+		flex-direction: row;
+	}
+
+	.container .btn--green {
+		margin: 0 16px 0 0;
+	}
+
+	.main__image {
+		margin-bottom: 80px;
+	}
+
+	.main__title {
+		width: 40%;
+	}
+
+	.main__text {
+		width: 45%;
+	}
+
+	.footer {
+		background-image: linear-gradient(
+				rgba(77, 150, 169, 0.8),
+				rgba(77, 150, 169, 0.8)
+			),
+			url(/meet-landing-page/assets/desktop/image-footer.jpg);
+	}
+
+	.footer .container {
+		max-height: 310px;
+	}
+
+	.footer__content {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.footer__title {
+		width: 30%;
+		text-align: start;
+	}
+
+	.footer__text {
+		width: 30%;
+		text-align: start;
+	}
+}

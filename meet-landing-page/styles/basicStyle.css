@@ -1,0 +1,22 @@
+:root {
+	--color-primary-green: #4d96a9;
+	--color-primary-green-lighter: #8fe3f9;
+	--color-secondary-purple: #855fb1;
+	--color-secondary-purple-lighter: #d9b8ff;
+	--color-neutral-gray-dark: #28283d;
+	--color-neutral-gray-light: #87879d;
+	--color-neutral-white: #fafafa;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 1.6rem;
+}
