@@ -1,0 +1,21 @@
+:root {
+	--color-dark-blue: #172339;
+	--color-grey: #49566d;
+	--color-cream: #f3ede7;
+	--color-cream-white: #faf8f6;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Epilogue", sans-serif;
+	font-size: 1.6rem;
+}
