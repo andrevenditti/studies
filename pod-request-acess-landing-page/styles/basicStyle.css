@@ -1,0 +1,24 @@
+:root {
+	--color-medium-aquamarine: #54e6af;
+	--color-japanese-indigo: #2c344b;
+	--color-eerie-black: #121725;
+	--color-white: #ffffff;
+	--color-ucla-blue: #5a668a;
+	--color-crayola: #c2cbe5;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: "Chivo", sans-serif;
+	background-color: var(--color-eerie-black);
+}

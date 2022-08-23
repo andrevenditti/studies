@@ -1,0 +1,11 @@
+header
+  logo
+main
+  div.container
+  div.background
+    h1
+    p
+    div
+      img*4
+  input
+  button
