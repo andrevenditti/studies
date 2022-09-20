@@ -1,0 +1,161 @@
+:root {
+	--color-white: #f2f2f2;
+	--color-gray: #808080;
+	--color-light-gray: #c5c5c5;
+	--color-dark-gray: #373737;
+	--color-black: #111111;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Syne Mono", monospace;
+	font-size: 62.5%;
+}
+
+body {
+	background: linear-gradient(136.52deg, #48d3ed 21.74%, #4dbfff 78.28%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+ul {
+	list-style: none;
+}
+
+.header .container {
+	width: 310px;
+	display: flex;
+	flex-direction: column;
+}
+
+.header .container span {
+	display: block;
+	text-align: right;
+}
+
+.pokemon__number {
+	font-size: 32px;
+	line-height: 38px;
+	color: #f2f2f2;
+	margin-bottom: 8px;
+}
+
+.pokemon__image {
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+}
+
+.main .container {
+	background-color: var(--color-white);
+	border-radius: 16px;
+	width: 310px;
+	padding: 16px 16px 32px 16px;
+	margin-top: 32px;
+	box-shadow: -4px 4px 0px #1b1b1b;
+}
+
+.pokemon__name {
+	text-align: center;
+	font-size: 32px;
+	color: #1b1b1b;
+}
+
+.pokemon__measurements {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.pokemon__wheight,
+.pokemon__height {
+	display: flex;
+	flex-direction: column;
+	padding: 24px 0;
+	text-align: center;
+}
+
+.pokemon__wheight span,
+.pokemon__height span {
+	font-size: 32px;
+	color: var(--color-dark-gray);
+}
+
+.pokemon__wheight label,
+.pokemon__height label {
+	font-size: 16px;
+	color: var(--color-gray);
+}
+
+.pokemon__stats-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.pokemon__stats-list li {
+	display: flex;
+	justify-content: space-around;
+}
+
+.pokemon__stats-list li:not(:last-child) {
+	padding-bottom: 16px;
+}
+
+.pokemon__stats-list li label {
+	color: var(--color-gray);
+}
+
+.pokemon__stats-list li label,
+.pokemon__stats-list li span {
+	width: 30px;
+	font-size: 16px;
+}
+
+.pokemon__stats-list li progress {
+	width: 150px;
+	height: 15px;
+}
+
+.form {
+	width: 300px;
+}
+
+.input__search {
+	width: 100%;
+	margin-top: 24px;
+	padding: 16px;
+	border: 1px solid black;
+	border-radius: 8px;
+	box-shadow: -4px 4px 0px #1b1b1b;
+}
+
+.input__search::placeholder {
+	font-family: "Syne Mono";
+	font-size: 16px;
+}
+
+.interaction {
+	margin-top: 24px;
+}
+
+.btn__prev,
+.btn__next {
+	width: 152px;
+	height: 50px;
+	background: #373737;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	box-shadow: -4px 4px 0px #1b1b1b;
+	color: var(--color-light-gray);
+	font-size: 32px;
+	font-family: "Syne Mono";
+}

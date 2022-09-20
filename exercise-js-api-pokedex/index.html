@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  <script defer src="./js/script.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <span class="pokemon__number"></span>
+      <img src="#" alt="pokemon" class="pokemon__image">
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <h1 class="pokemon__name"></h1>
+      <div class="pokemon__measurements">
+        <div class="pokemon__wheight">
+          <span></span>
+          <label for="">Wheight</label>
+        </div>
+        <div class="pokemon__height">
+          <span></span>
+          <label for="">Height</label>
+        </div>
+      </div>
+      <div class="pokemon__stats">
+        <ul class="pokemon__stats-list">
+          <li class="pokemon__health">
+            <label for="">HP</label>
+            <span></span>
+            <progress class="pokemon__health-item" max="200" value="125"></progress>
+          </li>
+          <li class="pokemon__attack">
+            <label for="">ATK</label>
+            <span></span>
+            <progress class="pokemon__attack-item" max="200" value="100"></progress>
+          </li>
+          <li class="pokemon__defense">
+            <label for="">DEF</label>
+            <span></span>
+            <progress class="pokemon__defense-item" max="200" value="100"></progress>
+          </li>
+          <li class="pokemon__speed">
+            <label for="">SPD</label>
+            <span></span>
+            <progress class="pokemon__speed-item" max="200" value="100"></progress>
+          </li>
+          <li class="pokemon__experience">
+            <label for="">EXP</label>
+            <span></span>
+            <progress class="pokemon__experience-item" max="400" value="100"></progress>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <form action="" class="form">
+    <input type="text" class="input__search" placeholder="Name or Number">
+  </form>
+
+  <div class="interaction">
+    <button class="btn__prev">&lt Prev</button>
+    <button class="btn__next">Next &gt</button>
+  </div>
+
+</body>
+
+</html>
