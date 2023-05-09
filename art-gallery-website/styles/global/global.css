@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+
+:root {
+  --primary-crayola: #d5966c;
+  --black: #151515;
+  --primary-grey: #444444;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+p {
+  font-weight: 300;
+}
+
+.container {
+  width: 375px;
+  max-width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}

@@ -1,0 +1,39 @@
+.btn {
+  width: 260px;
+  height: 72px;
+  background: var(--black);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 0.1s;
+}
+
+.btn::after {
+  background-color: var(--primary-crayola);
+  content: url(../../assets/arrow-right.svg);
+  height: 100%;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s;
+}
+
+.btn span {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: 3.64px;
+  margin-left: 32px;
+}
+
+.btn:hover {
+  background-color: var(--primary-crayola);
+}
+
+.btn:hover::after {
+  background-color: var(--black);
+}

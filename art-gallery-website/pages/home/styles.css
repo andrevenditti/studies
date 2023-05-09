@@ -1,0 +1,52 @@
+.hero {
+  margin-bottom: 120px;
+}
+
+.hero-image {
+  background-image: url(../../assets/hero-image.jpg);
+  background-size: cover;
+  height: 240px;
+  width: 100%;
+  background-position-y: -150px;
+  margin-bottom: 32px;
+}
+
+.hero-content {
+  padding: 0 16px;
+  background-color: var(--white);
+}
+
+.hero-content .title-l {
+  margin-bottom: 32px;
+}
+
+.hero-content .body-s {
+  margin-bottom: 32px;
+}
+
+.main {
+  padding: 0 16px;
+  margin-bottom: 120px;
+}
+
+.main img {
+  margin-bottom: 16px;
+}
+
+.main .title-sm {
+  margin-bottom: 21px;
+}
+
+.main .body-s {
+  margin-bottom: 32px;
+}
+
+.main .card {
+  background-color: var(--black);
+  height: 293px;
+}
+
+.card {
+  padding: 48px 24px;
+  color: var(--white);
+}
